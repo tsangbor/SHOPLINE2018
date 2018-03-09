@@ -1,0 +1,166 @@
+.logo {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/logo.svg");
+  background-position: center; }
+
+.logo {
+  height: 40px;
+  width: 249px; }
+
+.ico--shopline {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--shopline.png");
+  background-position: center; }
+
+.ico--shopline {
+  height: 22px;
+  width: 21px; }
+
+.ico--onlineshop {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--onlineshop.png");
+  background-position: center; }
+
+.ico--onlineshop {
+  height: 35px;
+  width: 35px; }
+
+.ico--brand {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--brand.png");
+  background-position: center; }
+
+.ico--brand {
+  height: 35px;
+  width: 35px; }
+
+.ico--marketing {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--marketing.png");
+  background-position: center; }
+
+.ico--marketing {
+  height: 35px;
+  width: 35px; }
+
+.ico--newbie {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--newbie.png");
+  background-position: center; }
+
+.ico--newbie {
+  height: 35px;
+  width: 35px; }
+
+.ico--new {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--new.png");
+  background-position: center; }
+
+.ico--new {
+  height: 35px;
+  width: 35px; }
+
+.ico--caseshare {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--caseshare.png");
+  background-position: center; }
+
+.ico--caseshare {
+  height: 35px;
+  width: 35px; }
+
+.ico--marketingshare {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--marketingshare.png");
+  background-position: center; }
+
+.ico--marketingshare {
+  height: 35px;
+  width: 35px; }
+
+.ico--beginner {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--beginner.png");
+  background-position: center; }
+
+.ico--beginner {
+  height: 35px;
+  width: 35px; }
+
+.ico--shopfeature {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--shopfeature.png");
+  background-position: center; }
+
+.ico--shopfeature {
+  height: 35px;
+  width: 35px; }
+
+.global--bg {
+  width: 100vw;
+  background-image: url("../images/sprite/bg--earth.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 0; }
+  .global--bg:after {
+    display: block;
+    content: "";
+    padding-bottom: 62.5%; }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Header_scroll" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-290.000000, -14.000000)">
+        <g fill="#FFFFFF" fill-rule="nonzero" id="Shape">
+            <path d="M312.56875,34.55625 L308.105312,30.0928125 C309.367437,28.4095 310.125,26.328 310.125,24.0625 C310.125,18.505125 305.619875,14 300.0625,14 C294.505125,14 290,18.505125 290,24.0625 C290,29.619875 294.505125,34.125 300.0625,34.125 C302.328,34.125 304.4095,33.3674375 306.091375,32.1053125 L310.55625,36.56875 C310.82075,36.83325 311.1025,37 311.5625,37 C312.357438,37 313,36.3574375 313,35.5625 C313,35.2476875 312.922375,34.909875 312.56875,34.55625 Z M293,24 C293,20.1332 296.1332,17 300,17 C303.8668,17 307,20.1332 307,24 C307,27.8668 303.8668,31 300,31 C296.1332,31 293,27.8668 293,24 Z"></path>
+        </g>
+    </g>
+</svg>

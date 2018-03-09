@@ -1,0 +1,19 @@
+/* Custom Adjusting For Developer */
+img {
+	height: auto;
+}
+
+
+#wp-megamenu-primary>.wpmm-nav-wrap ul.wp-megamenu>li>a {
+	line-height: 1;
+	padding: 8px 10px;
+	border-radius: 8px;
+}
+.wp-megamenu-wrap .wpmm-nav-wrap > ul > li {
+margin: 5px;
+padding: 10px 0;
+white-space: nowrap;
+}
+.wpmm-search-form {
+	display: block;
+}

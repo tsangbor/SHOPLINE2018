@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.2%" y="-6.2%" width="103.3%" height="117.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="start-here" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1272.000000, -74.000000)">
+        <g id="SEARCH" filter="url(#filter-1)" transform="translate(1091.000000, 63.000000)" fill="#3494FB" fill-rule="nonzero">
+            <path d="M197.7,26.3 L194.595,23.195 C195.473,22.024 196,20.576 196,19 C196,15.134 192.866,12 189,12 C185.134,12 182,15.134 182,19 C182,22.866 185.134,26 189,26 C190.576,26 192.024,25.473 193.194,24.595 L196.3,27.7 C196.484,27.884 196.68,28 197,28 C197.553,28 198,27.553 198,27 C198,26.781 197.946,26.546 197.7,26.3 Z M184,19 C184,16.238 186.238,14 189,14 C191.762,14 194,16.238 194,19 C194,21.762 191.762,24 189,24 C186.238,24 184,21.762 184,19 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
