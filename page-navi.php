@@ -19,66 +19,13 @@ get_header(); ?>
             <section class="section--navi">
               <div class="container">
                 <div class="row--navi">
-                  <div class="col">
+                  <div class="col" v-for="menu in menus[&quot;.value&quot;]">
                     <div class="card--navi">
-                      <div class="card__img"><img src="assets/images/sprite/pic--sitemap__1.png"></div>
+                      <div class="card__img"><img :src="menu[0].imgurl"></div>
                       <div class="card__caption">
-                        <h4>開店新手必看</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card--navi">
-                      <div class="card__img"><img src="assets/images/sprite/pic--sitemap__2.png"></div>
-                      <div class="card__caption">
-                        <h4>品牌案例分享</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card--navi">
-                      <div class="card__img"><img src="assets/images/sprite/pic--sitemap__3.png"></div>
-                      <div class="card__caption">
-                        <h4>熱門精選</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card--navi">
-                      <div class="card__img"><img src="assets/images/sprite/pic--sitemap__4.png"></div>
-                      <div class="card__caption">
-                        <h4>SHOPLINE 快訊</h4>
-                        <ul class="list--navi">
-                          <li><a>最新電商功能</a></li>
-                          <li><a>品牌電商小聚</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card--navi">
-                      <div class="card__img"><img src="assets/images/sprite/pic--sitemap__5.png"></div>
-                      <div class="card__caption">
-                        <h4>開店新手必看</h4>
-                        <ul class="list--navi">
-                          <li><a>SEO 教學</a></li>
-                          <li><a>Facebook 行銷</a></li>
-                          <li><a>Adwords 廣告</a></li>
-                          <li><a>GA 數據分析</a></li>
-                          <li><a>社群媒體趨勢</a></li>
-                          <li><a>網店行銷技巧</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="card--navi">
-                      <div class="card__img"><img src="assets/images/sprite/pic--sitemap__6.png"></div>
-                      <div class="card__caption">
-                        <h4>充電工作坊</h4>
-                        <ul class="list--navi">
-                          <li><a>暫定暫定暫定</a></li>
-                          <li><a>暫定暫定暫定</a></li>
+                        <h4>{{menu[0].menu}}</h4>
+                        <ul class="list--navi" v-if="menu.length != 1">
+                          <li v-for="data in menu"><a :href="data.link">{{data.submenu}}</a></li>
                         </ul>
                       </div>
                     </div>
@@ -87,5 +34,10 @@ get_header(); ?>
               </div>
             </section>
       </div>
+
+      <script src="//www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/vuefire/1.4.4/vuefire.min.js"></script>
+      <script src="//shopline-blog-2018.coreplay.com.tw/assets/js/navi.js"></script>
 
 <?php get_footer(); ?>

@@ -10009,9 +10009,9 @@ textarea {
       border-right: 1px solid #ababab;
       content: ""; }
 
-.tag {
+/*.tag {
   font-size: 87.5%;
-  color: #00B4C4; }
+  color: #00B4C4; }*/
 
 .panel--drawer {
   -webkit-transition-property: all;
@@ -10755,13 +10755,13 @@ article em {
     .box--sidebar .box__content p {
       font-size: 100%; } }
 
-.tag {
+/*.tag {
   font-size: 87.5%;
   color: #00B4C4; }
   @media (max-width: 767px) {
     .tag {
       font-size: 85.7142857143%;
-      line-height: 2.5; } }
+      line-height: 2.5; } }*/
 
 .date {
   font-size: 87.5%;
