@@ -1,8 +1,8 @@
 <?php
 /**
- * bloggr Theme Customizer
+ * shopline2018 Theme Customizer
  *
- * @package bloggr
+ * @package shopline2018
  */
 
 /**
@@ -530,6 +530,7 @@ function shopline2018_customize_register( $wp_customize ) {
 	$wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'shopline2018_footer_descr', array(
     'label' => __( 'Footer descrtion'),
     'section' => 'footer-custom',
+    'type' => 'textarea',
     'settings' => 'shopline2018_footer_descr', 
 	'priority'   => 20
 	) ) ); 

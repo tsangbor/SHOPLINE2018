@@ -129,7 +129,7 @@
             </div>
             <div class="col--right">
                     <?php if ( get_theme_mod( 'shopline2018_footer_descr' ) ) : ?>
-                        <?php echo esc_html( get_theme_mod( 'shopline2018_footer_descr' )); ?>   
+                        <?php echo  get_theme_mod( 'shopline2018_footer_descr' ); ?>   
                     <?php endif; ?>                
             </div>
         </div>

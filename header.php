@@ -38,57 +38,7 @@
                         <div class="hamburger hamburger--boring" js-toggle="drawer"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div>
                     </div>
                     <nav>
-                        <ul class="nav nav-list">
-                          <li class="nav-item"><a class="nav-link" href="/">首頁</a></li>
-                          <li class="nav-item"><a class="nav-link" href="navi.html">網站導覽</a></li>
-                          <li class="nav-item"><a class="more btn--collapse collapsed" data-toggle="collapse" href="#collapseDelivery"><span>SHOPLINE快遞<i class="fa fa-plus"></i></span></a>
-                            <div class="collapse" id="collapseDelivery">
-                              <div class="collapse--wrapper">
-                                <ul class="nav nav-list">
-                                  <li class="nav-item"><a class="nav-link">SEO 教學</a></li>
-                                  <li class="nav-item"><a class="nav-link">FACEBOOK 行銷</a></li>
-                                  <li class="nav-item"><a class="nav-link">Adwords 廣告</a></li>
-                                  <li class="nav-item"><a class="nav-link">GA 數據分析</a></li>
-                                  <li class="nav-item"><a class="nav-link">社群媒體趨勢</a></li>
-                                  <li class="nav-item"><a class="nav-link">網店行銷點子</a></li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div class="collapse--line"></div>
-                          </li>
-                          <li class="nav-item"><a class="more btn--collapse collapsed" data-toggle="collapse" href="#collapseBeginner"><span>電商新手必看<i class="fa fa-caret-down"></i></span></a>
-                            <div class="collapse" id="collapseBeginner">
-                              <div class="collapse--wrapper">
-                                <ul class="nav nav-list">
-                                  <li class="nav-item"><a class="nav-link">SEO 教學</a></li>
-                                  <li class="nav-item"><a class="nav-link">FACEBOOK 行銷</a></li>
-                                  <li class="nav-item"><a class="nav-link">Adwords 廣告</a></li>
-                                  <li class="nav-item"><a class="nav-link">GA 數據分析</a></li>
-                                  <li class="nav-item"><a class="nav-link">社群媒體趨勢</a></li>
-                                  <li class="nav-item"><a class="nav-link">網店行銷點子</a></li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div class="collapse--line"></div>
-                          </li>
-                          <li class="nav-item"><a class="nav-link" href="articleList.html">網店行銷</a></li>
-                          <li class="nav-item"><a class="more btn--collapse collapsed" data-toggle="collapse" href="#collapseCaseshare"><span>品牌案例分享<i class="fa fa-caret-down"></i></span></a>
-                            <div class="collapse" id="collapseCaseshare">
-                              <div class="collapse--wrapper">
-                                <ul class="nav nav-list">
-                                  <li class="nav-item"><a class="nav-link">SEO 教學</a></li>
-                                  <li class="nav-item"><a class="nav-link">FACEBOOK 行銷</a></li>
-                                  <li class="nav-item"><a class="nav-link">Adwords 廣告</a></li>
-                                  <li class="nav-item"><a class="nav-link">GA 數據分析</a></li>
-                                  <li class="nav-item"><a class="nav-link">社群媒體趨勢</a></li>
-                                  <li class="nav-item"><a class="nav-link">網店行銷點子</a></li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div class="collapse--line"></div>
-                          </li>
-                          <li class="nav-item"><a class="nav-link" href="articleList.html">熱門精選</a></li>
-                        </ul>
+                        <?php wp_nav_menu( array( 'menu' => 'Mobile Menu' ) ); ?>
                         <div class="row--free">
                           <ul class="nav nav-list nav--free">
                             <li class="nav-item"><a class="nav-link">免費試用開店</a></li>
@@ -101,7 +51,7 @@
                 </div>
                 <div class="header--customize">
                     <div class="header--left">
-                        <a class="logo" href="index.html"></a>
+                        <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"></a>
                         <div class="header__title">電商教室</div>
                     </div>
                     <div class="header--middle">
