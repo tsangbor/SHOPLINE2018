@@ -38,7 +38,19 @@
                         <div class="hamburger hamburger--boring" js-toggle="drawer"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div>
                     </div>
                     <nav>
-                        <?php wp_nav_menu( array( 'menu' => 'Mobile Menu' ) ); ?>
+                        <?php 
+                        wp_nav_menu( array(
+                          'theme_location'  => 'mobile-header-menu',
+                          'depth'       => 2, // 1 = with dropdowns, 0 = no dropdowns.
+                          'container'     => 'div',
+                          'container_class' => '',
+                          'container_id'    => 'bs-example-navbar-collapse-1',
+                          'menu_class'    => 'navbar-nav mr-auto',
+                          'fallback_cb'   => 'WP_Bootstrap_Navwalker::fallback',
+                          'walker'      => new WP_Bootstrap_Navwalker()
+                        ) );
+
+                        ?>
                         <div class="row--free">
                           <ul class="nav nav-list nav--free">
                             <li class="nav-item"><a class="nav-link">免費試用開店</a></li>
@@ -96,7 +108,9 @@
                     </div>
                 </div>
                 <div class="header--search">
-                    <input placeholder="請在此輸入關鍵字"><a class="button--search"></a><a class="button--closeSearch"><i class="fa fa-angle-right"></i></a>
+                  <form role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <input placeholder="請在此輸入關鍵字" name="s"></form><a class="button--search"></a><a class="button--closeSearch"><i class="fa fa-angle-right"></i></a>
+
                 </div>
                 <div class="header--push"></div>
                 <section class="section--hero">

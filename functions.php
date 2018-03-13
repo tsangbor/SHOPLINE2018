@@ -6,6 +6,15 @@
  */ 
 
 
+// Register Custom Navigation Walker
+if ( ! file_exists( get_template_directory() . '/class-wp-bootstrap-navwalker.php' ) ) {
+	// file does not exist... return an error.
+	return new WP_Error( 'class-wp-bootstrap-navwalker-missing', __( 'It appears the class-wp-bootstrap-navwalker.php file may be missing.', 'wp-bootstrap-navwalker' ) );
+} else {
+	// file exists... require it.
+    require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+}
+
 
 if ( ! function_exists( 'shopline2018_setup' ) ) :
 /**
@@ -42,6 +51,7 @@ function shopline2018_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => '主選單',
+		'mobile-header-menu' => '手機Header選單'
 	) );
 
 	/*
@@ -199,6 +209,8 @@ function shopline2018_body_class( $classes ){
 	return $classes;
 }
 add_filter('body_class','shopline2018_body_class');
+
+
 /**
  * Implement the Custom Header feature.
  */

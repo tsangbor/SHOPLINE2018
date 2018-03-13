@@ -26,36 +26,21 @@
         <div class="footer--customize">
         <div class="container">
         <div class="row--footer">
-                <div class="col">
-                  <h4>SHOPLINE</h4>
-                  <ul class="nav nav--sitemap">
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/about.html">關於我們</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/team.html">認識團隊</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/recruit.html">人才招募</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/partner.html">認證夥伴</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/media.html">媒體報導</a></li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <h4>我要開店</h4>
-                  <ul class="nav nav--sitemap">
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/features.html">功能特色</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/price.html">平台收費</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/client.html">客戶案例</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://seminar.shopline.hk" target="_blank">開店講座</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://consultation.shopline.hk/" target="_blank">開店諮詢</a></li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <h4>更多資源</h4>
-                  <ul class="nav nav--sitemap">
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/blog/" target="_blank">電商教室</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/tuts.html">開店秘技</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/theme.html">版型主題</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/faq.html">新手問答</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.hk/Google-ads" target="_blank">廣告計劃</a></li>
-                  </ul>
-                </div>
+        <div class="col">
+                <?php if( is_active_sidebar('footer-1') ): ?> 
+                    <?php dynamic_sidebar('footer-1'); ?>
+                <?php endif; ?>
+        </div>
+        <div class="col">
+                <?php if( is_active_sidebar('footer-2') ): ?>
+                    <?php dynamic_sidebar('footer-2'); ?>
+                <?php endif; ?>
+        </div>
+        <div class="col">
+                <?php if( is_active_sidebar('footer-3') ): ?>
+                    <?php dynamic_sidebar('footer-3'); ?>
+                <?php endif; ?> 
+        </div>
         <div class="col"></div>
         <div class="siteinfo">
             <?php if( get_theme_mod( 'active_social' ) == '') : ?>
