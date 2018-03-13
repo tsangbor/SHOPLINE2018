@@ -69,26 +69,26 @@
                     <div class="header--middle">
                     <nav>
                         <ul class="nav nav-list nav--privmacy">
-                            <li class="nav-item"><a class="nav-link" href="https://shopline.hk/features.html">功能特色</a></li>
-                            <li class="nav-item"><a class="nav-link" href="https://shopline.hk/price.html">平台收費</a></li>
-                            <li class="nav-item"><a class="nav-link" href="https://shopline.hk/client.html">客戶案例</a></li>
-                            <li class="nav-item"><a class="nav-link" href="https://seminar.shopline.hk" target="_blank">開店講座</a></li>
-                            <li class="nav-item"><a class="nav-link openSubMenu" href="https://consultation.shopline.hk/" target="_blank">開店諮詢</a></li>
-                            <li class="nav-item"><a class="nav-link" href="https://shopline.hk/blog/" target="_blank">電商教室</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#more">更多資源<i class="fa fa-caret-down"></i></a>
-                              <div class="subMenu">
-                                <div class="subMenu--container">
-                                  <nav>
-                                    <ul class="nav nav-list nav--secordary">
-                                      <li class="nav-item"><a class="nav-link" href="https://shopline.hk/tuts.html">開店秘技</a></li>
-                                      <li class="nav-item"><a class="nav-link" href="https://shopline.hk/theme.html">版型主題</a></li>
-                                      <li class="nav-item"><a class="nav-link" href="https://shopline.hk/faq.html">新手問答</a></li>
-                                      <li class="nav-item"><a class="nav-link" href="https://shopline.hk/Google-ads" target="_blank">廣告計劃</a></li>
-                                    </ul>
-                                  </nav>
-                                </div>
+                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview">功能特色</a></li>
+                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing">平台收費</a></li>
+                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase">客戶案例</a></li>
+                          <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw" target="_blank">開店說明會</a></li>
+                          <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw" target="_blank">開店諮詢</a></li>
+                          <li class="nav-item"><a class="nav-link" href="https://shopline.tw/blog/" target="_blank">電商教室</a></li>
+                          <li class="nav-item"><a class="nav-link" href="#more">更多資源<i class="fa fa-caret-down"></i></a>
+                            <div class="subMenu">
+                              <div class="subMenu--container">
+                                <nav>
+                                  <ul class="nav nav-list nav--secordary">
+                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/online-store-setup">開店密技</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/templates">版型主題</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/faq/overview">新手問答</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="https://partners.shopline.tw/google-ads-plan" target="_blank">廣告計畫</a></li>
+                                  </ul>
+                                </nav>
                               </div>
-                            </li>
+                            </div>
+                          </li>
                         </ul>
                     </nav>
                     </div>

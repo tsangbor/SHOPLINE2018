@@ -8216,7 +8216,7 @@ body {
   opacity: 1;
   pointer-events: auto; }
 
-.menu {
+.header--customize .menu {
   display: none;
   position: absolute;
   right: 0;
@@ -8224,7 +8224,7 @@ body {
   margin-top: -14px; }
 
 @media (max-width: 991px) {
-  .menu {
+  .header--customize .menu {
     display: block; } }
 
 .button--search {
@@ -10328,7 +10328,7 @@ main .container {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  padding: 0 20px; }
+  padding: 0 15px; }
 
 .row--articleList > .col--full {
   flex: 0 0 100%;
