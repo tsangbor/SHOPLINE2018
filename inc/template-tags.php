@@ -111,18 +111,30 @@ function shopline2018_paging_nav() {
 	if ( $GLOBALS['wp_query']->max_num_pages < 2 ) {
 		return;
 	}
+	$pagination_html = '';
 	$total_pages = $GLOBALS['wp_query']->max_num_pages;
 	if ($total_pages > 1){
-	  $current_page = max(1, get_query_var('paged'));
-	  echo paginate_links(array(
-	      'base' => get_pagenum_link(1) . '%_%',
-	      'format' => '/page/%#%/',
-	      'current' => $current_page,
-	      'total' => $total_pages,
-	      'prev_text' => 'Prev',
-	      'next_text' => 'Next',
-	      'type' => 'list'
-	    ));
+		$current_page = max(1, get_query_var('paged'));
+		$pagination = paginate_links(array(
+			'base' => get_pagenum_link(1) . '%_%',
+			'format' => 'page/%#%/',
+			'current' => $current_page,
+			'total' => $total_pages,
+			'prev_text' => 'Prev',
+			'next_text' => 'Next',
+			'type' => 'array'
+		));
+		if( sizeof($pagination) > 0 ){
+			$pagination_html .= '<ul class="page-numbers">';
+			foreach( $pagination as $k => $v ){
+				$pagination_html .= '<li>'.$v.'</li>';
+			}
+			if( !is_home() ){
+				$pagination_html .= '<li><a href="'.home_url('/').'all/">瀏覽全部文章</a></li>';
+			}
+			$pagination_html .= '</ul>';
+		}
+		echo $pagination_html;
 	}
 }
 endif;
@@ -383,3 +395,4 @@ function shopline2018_category_transient_flusher() {
 }
 add_action( 'edit_category', 'shopline2018_category_transient_flusher' );
 add_action( 'save_post',     'shopline2018_category_transient_flusher' );
+

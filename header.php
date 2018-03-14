@@ -116,7 +116,7 @@
                 <section class="section--hero">
                     <div class="container">
                         <div class="hero__caption">
-                            <h1>SHOPLINE 電商教室</h1>
+                            <h1><a href="<?php echo home_url('/'); ?>">SHOPLINE 電商教室</a></h1>
                         </div>
                     </div>
                 </section>

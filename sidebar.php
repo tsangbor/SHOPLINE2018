@@ -23,7 +23,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
         <div class="tab-content">
           <div class="tab-pane fade show active" id="tab-hot">
             <ul class="list--sellection">
-				<?php query_posts(array('posts_per_page' => 3,'caller_get_posts' =>1,'orderby' =>'comment_count'));
+				<?php query_posts(array('posts_per_page' => 5,'caller_get_posts' =>1,'orderby' =>'comment_count'));
 				while ( have_posts() ) : the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
               <?php endwhile;wp_reset_query();?>
@@ -31,7 +31,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
           </div>
           <div class="tab-pane fade" id="tab-recommend">
             <ul class="list--sellection">
-				<?php query_posts(array('posts_per_page' => 3, 'tag' => 'recommend', 'caller_get_posts' =>1,'orderby' => 'date', 'order' => 'DESC'));
+				<?php query_posts(array('posts_per_page' => 5, 'tag' => 'recommend', 'caller_get_posts' =>1,'orderby' => 'date', 'order' => 'DESC'));
 				while ( have_posts() ) : the_post(); ?>
               <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
               <?php endwhile;wp_reset_query();?>

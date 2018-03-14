@@ -24,6 +24,11 @@
       </div>
       <div class="article--body">
         <article>
+          <?php
+          if ( has_post_thumbnail() ) :
+            the_post_thumbnail();
+          endif;
+          ?>          
         	<?php the_content(); ?>
         </article>
       </div>

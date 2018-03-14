@@ -97,6 +97,15 @@ function shopline2018_widgets_init() {
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
+	) );	
+	register_sidebar( array(
+		'name'          => 'Global Copyright',
+		'id'            => 'copyright-1',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
 	) );
 	
 	register_sidebar( array(
@@ -210,6 +219,27 @@ function shopline2018_body_class( $classes ){
 }
 add_filter('body_class','shopline2018_body_class');
 
+
+
+function shopline2018_CopyrightAfterContent($content){
+	if(is_page() || is_single()){
+	    ob_start();
+	    dynamic_sidebar('copyright-1');
+	    $sidebar_html = ob_get_contents();
+	    ob_end_clean();		
+	    return $content . $sidebar_html;
+	}else{
+		return $content ;
+	}
+}
+add_filter('the_content', 'shopline2018_CopyrightAfterContent');
+
+
+// define the paginate_links callback 
+function shopline2018_filter_paginate_links($link){
+	return $link;
+}
+add_filter('paginate_links', 'shopline2018_filter_paginate_links');
 
 /**
  * Implement the Custom Header feature.
