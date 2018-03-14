@@ -172,7 +172,7 @@ function shopline2018_scripts() {
 	remove_action( 'wp_head', 'wp_generator' );
 	wp_enqueue_style( 'shopline2018-style', get_stylesheet_uri() );
 	wp_enqueue_style( 'shopline2018-sprite', get_template_directory_uri() . '/css/sprite.css' );
-	wp_enqueue_style( 'shopline2018-adjunction', get_template_directory_uri() . '/css/adjunction.css' );
+	/*wp_enqueue_style( 'shopline2018-adjunction', get_template_directory_uri() . '/css/adjunction.css' );*/
 	wp_enqueue_style( 'shopline2018-notosanstc', '//fonts.googleapis.com/earlyaccess/notosanstc.css');  	
 	wp_enqueue_style( 'shopline2018-roboto', '//fonts.googleapis.com/css?family=Roboto:400,300,500,600,700'); 
 	
@@ -194,6 +194,12 @@ function footer_enqueue_scripts() {
 	add_action('wp_head', 'wp_print_head_scripts', 5);
 }
 add_action( 'after_setup_theme', 'footer_enqueue_scripts' );
+
+
+function prefix_add_footer_styles() {
+    wp_enqueue_style( 'shopline2018-adjunction', get_template_directory_uri() . '/css/adjunction.css' );
+};
+add_action( 'get_footer', 'prefix_add_footer_styles' );
 /**
  * Change the excerpt length
  */
