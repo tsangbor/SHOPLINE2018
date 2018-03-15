@@ -295,3 +295,9 @@ require get_template_directory() . '/inc/jetpack.php';
  * Activate for a child theme.  Always use a child theme to make edits.
  */
 require_once( trailingslashit( get_template_directory() ) . '/inc/use-child-theme.php' );
+
+/**
+ * Minify HTML for WordPress.
+ */
+//require get_template_directory() . '/inc/html-minify.php'; 
+
