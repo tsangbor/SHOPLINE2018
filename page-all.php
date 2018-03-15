@@ -16,15 +16,15 @@ get_header(); ?>
             <div class="home-middle">
               <section class="section--articleList">
                 <div class="container">
-                	<?php if( get_theme_mod( 'active_newest' ) == '') : ?> 
+                	<?php if( get_theme_mod( 'active_newest' ) == '') : ?>
 						<div class="section__title">
 							<h2 class="catalog--title"><i class="ico--new"></i><span><?php echo esc_html( get_theme_mod( 'newest_text' )); ?> </span></h2>
 						</div>
 						<div class="row--articleList is-list-all">
 
-						<?php query_posts( array ( 'post_type' => 'post' ) );
-			            	while ( have_posts() ) : the_post(); 
-							?> 
+						<?php query_posts( array ( 'post_type' => 'post', 'paged' => ( get_query_var('paged') ? get_query_var('paged') : 1) ) );
+			            	while ( have_posts() ) : the_post();
+							?>
 							<div id="post-<?php the_ID(); ?>" <?php post_class('col'); ?> >
 							  <div class="card--article">
 							  	<a class="card__img" href="<?php the_permalink(); ?>"><?php the_post_thumbnail('global-thumb'); ?></a>
@@ -36,8 +36,8 @@ get_header(); ?>
 							    </div>
 							  </div>
 							</div>
-			                    
-						<?php endwhile; // end of the loop. ?> 
+
+						<?php endwhile; // end of the loop. ?>
                             <div class="ui--pagination">
                             <?php shopline2018_paging_nav(); ?>
                             </div>
