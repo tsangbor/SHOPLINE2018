@@ -39,10 +39,7 @@ get_header(); ?>
 							  </div>
 							</div>
 			                    
-						<?php $i++; endwhile; // end of the loop. ?> 
-                            <div class="ui--pagination">
-                            <?php shopline2018_paging_nav(); ?>
-                            </div>		
+						<?php $i++; endwhile; // end of the loop. ?> 	
 						</div>
 					<?php endif; ?>
 
@@ -67,10 +64,7 @@ get_header(); ?>
 							  </div>
 							</div>
 			                    
-						<?php $i++; endwhile; // end of the loop. ?> 
-                            <div class="ui--pagination">
-                            <?php shopline2018_paging_nav(); ?>
-                            </div>								
+						<?php $i++; endwhile; // end of the loop. ?> 						
                   </div>
                   <div class="section__title">
                     <h2 class="catalog--title"><i class="ico--caseshare"></i><span>品牌案例分享</span></h2>
@@ -93,10 +87,7 @@ get_header(); ?>
 							  </div>
 							</div>
 			                    
-						<?php $i++; endwhile; // end of the loop. ?> 
-                            <div class="ui--pagination">
-                            <?php shopline2018_paging_nav(); ?>
-                            </div>								
+						<?php $i++; endwhile; // end of the loop. ?> 							
                   </div>
                   <div class="section__title">
                     <h2 class="catalog--title"><i class="ico--shopfeature"></i><span>最新電商功能</span></h2>
@@ -119,11 +110,11 @@ get_header(); ?>
 							  </div>
 							</div>
 			                    
-						<?php $i++; endwhile; // end of the loop. ?> 
-                            <div class="ui--pagination">
-                            <?php shopline2018_paging_nav(); ?>
-                            </div>						
+						<?php $i++; endwhile; // end of the loop. ?> 				
                   </div>
+
+					<div class="row--button"><a class="button--readAll" href="<?php echo home_url('/'); ?>all/"><span>瀏覽所有文章</span></a></div>
+
                 </div>
               </section>
             </div>

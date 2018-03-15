@@ -130,7 +130,7 @@ function shopline2018_paging_nav() {
 				$pagination_html .= '<li>'.$v.'</li>';
 			}
 			if( !is_home() ){
-				$pagination_html .= '<li><a href="'.home_url('/').'all/">瀏覽全部文章</a></li>';
+				$pagination_html .= '<li><a href="'.home_url('/').'all/" class="button--pagination__sp">瀏覽全部文章</a></li>';
 			}
 			$pagination_html .= '</ul>';
 		}
