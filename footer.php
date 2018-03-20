@@ -20,7 +20,7 @@
                     <h4>全亞洲超過 100,000 個品牌<br>都在使用 SHOPLINE</h4>
                     <p>讓更多人看見你的品牌，<br class="show-in-mobile">愛上你的商店，購買你的產品</p>
                     </div>
-                    <div class="row--button"><a class="button--xl is-cta" href="register.html"><span>免費試用30天</span></a></div>
+                    <div class="row--button"><a class="button--xl is-cta" href="//admin.shoplineapp.com/users/sign_up/?utm_source=footer-cta&utm_medium=blog"><span>免費試用30天</span></a></div>
                 </div>
             </section>
         <div class="footer--customize">
