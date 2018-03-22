@@ -20,7 +20,7 @@
                     <h4>全亞洲超過 100,000 個品牌<br>都在使用 SHOPLINE</h4>
                     <p>讓更多人看見你的品牌，<br class="show-in-mobile">愛上你的商店，購買你的產品</p>
                     </div>
-                    <div class="row--button"><a class="button--xl is-cta" href="//admin.shoplineapp.com/users/sign_up/?utm_source=footer-cta&utm_medium=blog"><span>免費試用30天</span></a></div>
+                    <div class="row--button"><a class="button--xl is-cta" href="//admin.shoplineapp.com/users/sign_up/?utm_source=footer-cta&utm_medium=blog" target="_blank"><span>免費試用30天</span></a></div>
                 </div>
             </section>
         <div class="footer--customize">
@@ -29,20 +29,20 @@
                 <div class="col">
                   <h4>SHOPLINE</h4>
                   <ul class="nav nav--sitemap">
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/about">關於我們</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/team">認識團隊</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/careers">人才招募</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/contact">合作機會</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/partners">認證夥伴</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/press">媒體報導</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/about" target="_blank">關於我們</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/team" target="_blank">認識團隊</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/careers" target="_blank">人才招募</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/contact" target="_blank">合作機會</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/partners" target="_blank">認證夥伴</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/press" target="_blank">媒體報導</a></li>
                   </ul>
                 </div>
                 <div class="col">
                   <h4>我要開店</h4>
                   <ul class="nav nav--sitemap">
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview">功能特色</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing">平台收費</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase">客戶案例</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview" target="_blank">功能特色</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing" target="_blank">平台收費</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase" target="_blank">客戶案例</a></li>
                     <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw" target="_blank">開店說明會</a></li>
                     <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw" target="_blank">開店諮詢</a></li>
                   </ul>
@@ -51,9 +51,9 @@
                   <h4>更多資源</h4>
                   <ul class="nav nav--sitemap">
                     <li class="nav-item"><a class="nav-link" href="https://shopline.tw/blog/" target="_blank">電商教室</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/online-store-setup">開店密技</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/templates">版型主題</a></li>
-                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/faq/overview">新手問答</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/online-store-setup" target="_blank">開店密技</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/templates" target="_blank">版型主題</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/faq/overview" target="_blank">新手問答</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://partners.shopline.tw/google-ads-plan" target="_blank">廣告計畫</a></li>
                   </ul>
                 </div>
@@ -79,9 +79,9 @@
             <div class="copyright">服務時間   星期一至五 上午 10 點至晚上 7 點<br>© Copyright 2013-18 SHOPLINE Limited.</div>
             <div class="row--siteinfo">
                 <ul class="nav nav--siteinfo">
-                    <li class="nav-item"><a class="nav-link" href="navi.html">網站導覽</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">文章轉載說明</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">投稿流程說明</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/blog/start-here">網站導覽</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/blog/shopline-guidelines-for-sharing-and-republishing-content/">文章轉載說明</a></li>
+                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/blog/merchants-sharing/">投稿流程說明</a></li>
                 </ul>
             </div>
         </div>
@@ -91,23 +91,23 @@
           <li class="nav-item"><a class="shopline btn--collapse collapsed" data-toggle="collapse" href="#shopline"><span>SHOPLINE</span><i class="fa fa-angle-down"></i><i class="plus"></i></a>
             <div class="collapse" id="shopline">
               <ul class="nav nav-list">
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/about">關於我們</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/team">認識團隊</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/careers">人才招募</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/contact">合作機會</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/partners">認證夥伴</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/press">媒體報導</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/about" target="_blank">關於我們</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/team" target="_blank">認識團隊</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/careers" target="_blank">人才招募</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/contact" target="_blank">合作機會</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/partners" target="_blank">認證夥伴</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/press" target="_blank">媒體報導</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item"><a class="open btn--collapse collapsed" data-toggle="collapse" href="#open"><span>我要開店</span><i class="fa fa-angle-down"></i><i class="plus"></i></a>
             <div class="collapse" id="open">
               <ul class="nav nav-list">
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview">功能特色</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing">平台收費</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase">客戶案例</a></li>
-                <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw" target="_blank">開店說明會</a></li>
-                <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw" target="_blank">開店諮詢</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview" target="_blank">功能特色</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing" target="_blank">平台收費</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase" target="_blank">客戶案例</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw" target="_blank" target="_blank">開店說明會</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw" target="_blank" target="_blank">開店諮詢</a></li>
               </ul>
             </div>
           </li>
@@ -115,21 +115,29 @@
             <div class="collapse" id="resources">
               <ul class="nav nav-list">
                 <li class="nav-item"><a class="nav-link" href="https://shopline.tw/blog/" target="_blank">電商教室</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/online-store-setup">開店密技</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/templates">版型主題</a></li>
-                <li class="nav-item"><a class="nav-link" href="//shopline.tw/faq/overview">新手問答</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/online-store-setup" target="_blank">開店密技</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/templates" target="_blank">版型主題</a></li>
+                <li class="nav-item"><a class="nav-link" href="//shopline.tw/faq/overview" target="_blank">新手問答</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://partners.shopline.tw/google-ads-plan" target="_blank">廣告計畫</a></li>
               </ul>
             </div>
           </li>
         </ul>
         <div class="siteinfo">
-        <div class="button-group"><a>
-        <div class="icon-brand"></div></a><a>
-        <div class="icon-facebook"></div></a><a>
-        <div class="icon-instagram"></div></a><a>
-        <div class="icon-linkedin"></div></a><a>
-        <div class="icon-mail"></div></a></div>
+        <div class="button-group">
+        	<?php if ( get_theme_mod( 'shopline2018_fb' ) ) : ?>
+                <a href="<?php echo esc_url( get_theme_mod( 'shopline2018_fb' )); ?>" target="_blank"><div class="icon-facebook"></div></a>
+            <?php endif; ?>
+            <?php if ( get_theme_mod( 'shopline2018_instagram' ) ) : ?>
+                <a href="<?php echo esc_url( get_theme_mod( 'shopline2018_instagram' )); ?>" target="_blank"><div class="icon-instagram"></div></a>
+            <?php endif; ?>
+            <?php if ( get_theme_mod( 'shopline2018_linked' ) ) : ?>
+                <a href="<?php echo esc_url( get_theme_mod( 'shopline2018_linked' )); ?>" target="_blank"><div class="icon-linkedin"></div></a>
+            <?php endif; ?>
+            <?php if ( get_theme_mod( 'shopline2018_mail' ) ) : ?>
+                <a href="mailto:<?php echo esc_url( get_theme_mod( 'shopline2018_mail' )); ?>" target="_blank"><div class="icon-mail"></div></a>
+            <?php endif; ?>
+    	</div>
         <ul class="nav nav--siteinfo">
         <li class="nav-item"><a class="nav-link">網站導覽</a></li>
         <li class="nav-item"><a class="nav-link">文章轉載說明</a></li>

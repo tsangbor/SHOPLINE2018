@@ -237,7 +237,7 @@ function shopline2018_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( '</div><div class="tag">' );
 		if ( $categories_list && shopline2018_categorized_blog() ) {
-			$html .= '<div class="box--article"><div class="box__title"><h4>文章分類</h4></div><div class="box__content"><div class="tags"><div class="tag">';
+			$html .= '<div class="box--article"><div class="box__title"><h4>文章分類</h4></div><div class="box__content"><div class="tags is-catalog"><div class="tag">';
 			$html .= $categories_list ;
 			$html .= '</div></div></div></div>';
 		}

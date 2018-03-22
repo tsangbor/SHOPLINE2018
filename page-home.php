@@ -50,7 +50,6 @@ get_header(); ?>
 						<?php query_posts( array ( 'post_type' => 'post', 'posts_per_page' => 3, 'cat' => 211) );
 			                $i=0; 
 			            	while ( have_posts() ) : the_post(); 
-				
 							?> 
 							<div id="post-<?php the_ID(); ?>" <?php if($i>0){post_class('col');}else{post_class('col--full');} ?> >
 							  <div class="card--article">

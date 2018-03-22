@@ -21,7 +21,9 @@ get_header(); ?>
                 <?php while ( have_posts() ) : the_post(); ?>
     
                     <?php get_template_part( 'content', 'page' ); ?>
-
+                    <?php if( is_active_sidebar('copyright-1') ): ?> 
+                    <?php dynamic_sidebar('copyright-1'); ?>
+                    <?php endif; ?>
                     <?php
                         // If comments are open or we have at least one comment, load up the comment template
                         if ( comments_open() || get_comments_number() ) :

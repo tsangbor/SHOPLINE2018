@@ -64,7 +64,7 @@
                 <div class="header--customize">
                     <div class="header--left">
                         <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"></a>
-                        <div class="header__title">電商教室</div>
+                        <a class="header__title" href="<?php echo esc_url( home_url( '/' ) ); ?>">電商教室</a>
                     </div>
                     <div class="header--middle">
                     <nav>
