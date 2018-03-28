@@ -3205,39 +3205,6 @@ img {
 .big {
   font-size: 120%; }
 
-.nav--breadcrumb {
-  position: relative;
-  display: inline-block;
-  max-width: calc(100% - 280px);
-  width: auto;
-  font-size: 0;
-  height: 2rem;
-  overflow: hidden;
-  padding-right: 1rem; }
-
-.nav--breadcrumb a,
-.nav--breadcrumb span {
-  font-size: 14px;
-  color: #454545; }
-
-.nav--breadcrumb a:after {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f105";
-  margin: 0 5px; }
-
-.nav--breadcrumb:after {
-  content: "...";
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: inline-block;
-  font-size: 16px; }
-
 .footer--customize .menu {
   list-style-type: none;
   padding: 0; }
@@ -3261,7 +3228,11 @@ span.wpmm-selected-icon {
   border: none; }
 
 .wpmm-sticky.wpmm-sticky-wrap .wpmm-nav-wrap {
-  padding: 0; }
+  padding: 0;
+  max-width: 1110px; }
+
+.wpmm-nav-wrap.wpmm-main-wrap-primary {
+  position: relative; }
 
 #wp-megamenu-primary {
   width: 100%;
@@ -3292,6 +3263,14 @@ span.wpmm-selected-icon {
   right: 20px;
   content: "\f002";
   color: #3494FB; }
+
+#wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu > li ul.wp-megamenu-sub-menu li .card--article .card__caption a {
+  font-weight: 600 !important;
+  font-weight: 600;
+  color: #343434 !important; }
+
+#wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu > li ul.wp-megamenu-sub-menu li .card--article .card__caption a:hover {
+  color: #707b83 !important; }
 
 #wp-megamenu-primary > .wpmm-nav-wrap ul.wp-megamenu > li > a,
 #wp-megamenu-primary > .wpmm-nav-wrap .wp-megamenu > li > ul.wp-megamenu-sub-menu li.wpmm-type-widget > a,
@@ -3346,6 +3325,9 @@ span.wpmm-selected-icon {
   background: #DFDFDF;
   padding: 30px 20px 20px 40px !important; }
 
+.wpmm-col h4 {
+  display: none; }
+
 .wpmm-col.wpmm-col-10 {
   width: calc(100% - 240px);
   background: white;
@@ -3353,9 +3335,6 @@ span.wpmm-selected-icon {
   padding-right: 30px !important;
   padding-top: 30px !important;
   padding-bottom: 20px !important; }
-
-.wpmm-col.wpmm-col-10 h4 {
-  display: none; }
 
 .wpmm-col.wpmm-col-10 .articleSwiper--wrapper .card--article .card__caption .caption {
   font-size: 100%; }
@@ -3574,7 +3553,6 @@ span.wpmm-selected-icon {
   float: left; }
 
 .card--article .tags .tag {
-  display: inline-block;
   float: left; }
 
 .card--article .date {
@@ -3583,8 +3561,7 @@ span.wpmm-selected-icon {
 
 .card--article .tag {
   font-size: 87.5%;
-  line-height: 16px;
-  color: #00B4C4; }
+  line-height: 16px; }
 
 .card--article .date {
   line-height: 16px; }
@@ -3659,8 +3636,9 @@ div.sharedaddy h3.sd-title:before {
 .jp-relatedposts {
   display: none !important; }
 
-.box--article .tags .tag a {
-  color: #5fc2ae; }
+.widget.widget_text .quote {
+  border-left: 2px solid #00B4C4;
+  padding-left: 1rem; }
 
 .list--sellection li:nth-child(4):before {
   content: "4"; }
@@ -3827,6 +3805,13 @@ div.sharedaddy h3.sd-title:before {
 
 .row--articleList {
   margin: 0 -15px; }
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100% !important; } }
+
+.section--hero {
+  background-image: url(../images/sprite/bg--hero.png); }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .section--navi {

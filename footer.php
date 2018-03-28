@@ -50,7 +50,7 @@
                 <div class="col">
                   <h4>更多資源</h4>
                   <ul class="nav nav--sitemap">
-                    <li class="nav-item"><a class="nav-link" href="https://shopline.tw/blog/" target="_blank">電商教室</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://shopline.tw/blog/">電商教室</a></li>
                     <li class="nav-item"><a class="nav-link" href="//shopline.tw/online-store-setup" target="_blank">開店密技</a></li>
                     <li class="nav-item"><a class="nav-link" href="//shopline.tw/templates" target="_blank">版型主題</a></li>
                     <li class="nav-item"><a class="nav-link" href="//shopline.tw/faq/overview" target="_blank">新手問答</a></li>
@@ -139,11 +139,11 @@
             <?php endif; ?>
     	</div>
         <ul class="nav nav--siteinfo">
-        <li class="nav-item"><a class="nav-link">網站導覽</a></li>
-        <li class="nav-item"><a class="nav-link">文章轉載說明</a></li>
-        <li class="nav-item"><a class="nav-link">投稿流程說明</a></li>
+        <li class="nav-item"><a class="nav-link" href="//shopline.tw/blog/start-here">網站導覽</a></li>
+        <li class="nav-item"><a class="nav-link" href="//shopline.tw/blog/shopline-guidelines-for-sharing-and-republishing-content/">轉載說明</a></li>
+        <li class="nav-item"><a class="nav-link" href="//shopline.tw/blog/merchants-sharing/">投稿流程</a></li>
         </ul>
-        <div class="copyright">服務時間   星期一至五 上午 10 點至晚上 7 點<br>© Copyright 2013-17 SHOPLINE Limited.</div>
+        <div class="copyright">服務時間 星期一至五 上午 10 點至晚上 7 點<br>© Copyright 2013-18 SHOPLINE Limited.</div>
         </div>
         </div>
         <hr>

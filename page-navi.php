@@ -11,7 +11,7 @@ get_header(); ?>
             <section class="section--naviCover">
               <div class="container">
                 <div class="section__title">
-                  <h1><span>電商教室 </span><br class="v-lg v-xl">網站導覽</h1>
+                  <h1>>電商教室 網站導覽</h1>
                   <p>從網路行銷到商店營運<br class="v-md v-sm v-xs"><span class="v-lg v-xl">-</span>電商創業者的首選知識庫</p>
                 </div>
               </div>

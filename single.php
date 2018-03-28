@@ -6,17 +6,16 @@
  */
 
 get_header(); ?>
-    <section class="section--breadcrumb">
-      <div class="container">
-        <ul class="nav--breadcrumb">
-            <?php shopline2018_breadcrumbs(); ?>
-        </ul>
-      </div>
-    </section>  
-
     <div class="site-inner container">
         <div class="content-sidebar-wrap">
             <main class="content">
+            	<section class="section--breadcrumb">
+			      <div class="container">
+			        <ul class="nav--breadcrumb">
+			            <?php shopline2018_breadcrumbs(); ?>
+			        </ul>
+			      </div>
+			    </section> 
             <?php while ( have_posts() ) : the_post(); ?>
 
             <?php get_template_part( 'content', 'single' ); ?>

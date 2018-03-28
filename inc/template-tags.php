@@ -178,7 +178,7 @@ function shopline2018_posted_on() {
 		if( $tag_ary ){
 			$html .= '<div class="tags">';
 			for($i=0;$i<sizeof($tag_ary);$i++){
-				if( $i < 2 ){
+				if( $i < 99 ){
 					$tag_link = get_tag_link( $tag_ary[$i]->term_id );
 					$tag_name = $tag_ary[$i]->name;
 					$html .= '<div class="tag"><a href="'.$tag_link.'" rel="tag">'.$tag_name.'</a></div>';

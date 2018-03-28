@@ -51,15 +51,17 @@
                         ) );
 
                         ?>
-                        <div class="row--free">
-                          <ul class="nav nav-list nav--free">
-                            <li class="nav-item"><a class="nav-link">免費試用開店</a></li>
-                            <li class="nav-item"><a class="nav-link">免費開店講座</a></li>
-                            <li class="nav-item"><a class="nav-link">免費專人諮詢</a></li>
-                          </ul>
-                        </div>
                         <div class="row--button"><a class="button--drawer" href="login.html"><span>登入網店</span></a><a class="button--drawer is-invert" href="register.html"><span>立即開店</span></a></div>
                     </nav>
+                    <div class="row--free__wrapper">
+                    <div class="row--free">
+                      <ul class="nav nav-list nav--free">
+                        <li class="nav-item"><a class="nav-link" href="//shopline.tw/?utm_source=top-menu&utm_medium=blog">免費試用</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://seminar.shopline.tw/?utm_source=top-menu&utm_medium=blog">免費講座</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://consultation.shopline.tw/?utm_source=top-menu&utm_medium=blog">免費諮詢</a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="header--customize">
                     <div class="header--left">
@@ -74,7 +76,7 @@
                           <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase/?utm_source=nav-menu&utm_medium=blog">客戶案例</a></li>
                           <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw/?utm_source=nav-menu&utm_medium=blog" target="_blank">開店說明會</a></li>
                           <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw/?utm_source=nav-menu&utm_medium=blog" target="_blank">開店諮詢</a></li>
-                          <li class="nav-item"><a class="nav-link" href="https://shopline.tw/blog/" target="_blank">電商教室</a></li>
+                          <li class="nav-item"><a class="nav-link" href="https://shopline.tw/blog/">電商教室</a></li>
                           <li class="nav-item"><a class="nav-link" href="#more">更多資源<i class="fa fa-caret-down"></i></a>
                             <div class="subMenu">
                               <div class="subMenu--container">
@@ -116,7 +118,7 @@
                 <section class="section--hero">
                     <div class="container">
                         <div class="hero__caption">
-                            <h1><a href="<?php echo home_url('/'); ?>">SHOPLINE 電商教室</a></h1>
+                            <h1><a href="<?php echo home_url('/'); ?>"><span class="en">SHOPLINE </span>電商教室</a></h1>
                         </div>
                     </div>
                 </section>
