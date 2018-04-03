@@ -51,7 +51,7 @@
                         ) );
 
                         ?>
-                        <div class="row--button"><a class="button--drawer" href="https://admin.shoplineapp.com/users/sign_in" target="_blank"><span>登入網店</span></a><a class="button--drawer is-invert" href="https://admin.shoplineapp.com/users/sign_up?utm_source=nav-menu&utm_medium=blog" target="_blank"><span>立即開店</span></a></div>
+                        <div class="row--button"><a class="button--drawer" href="https://admin.shoplineapp.com/users/sign_in/?utm_source=nav-menu&utm_medium=blog" target="_blank"><span>登入網店</span></a><a class="button--drawer is-invert" href="https://admin.shoplineapp.com/users/sign_up?utm_source=nav-menu&utm_medium=blog" target="_blank"><span>立即開店</span></a></div>
                     </nav>
                     <div class="row--free__wrapper">
                     <div class="row--free">
@@ -95,7 +95,7 @@
                     </nav>
                     </div>
                     <div class="header--right button--group">
-                        <a class="button--small is-invert" href="http://admin.shoplineapp.com/users/sign_in" target="_blank">登入網店</a><a class="button--small" href="https://admin.shoplineapp.com/users/sign_up?utm_source=nav-menu&utm_medium=blog" target="_blank">立即開店</a></div>
+                        <a class="button--small is-invert" href="https://admin.shoplineapp.com/users/sign_in/?utm_source=nav-menu&utm_medium=blog" target="_blank">登入網店</a><a class="button--small" href="https://admin.shoplineapp.com/users/sign_up?utm_source=nav-menu&utm_medium=blog" target="_blank">立即開店</a></div>
                     <div class="header--right button--cta">
                         <ul class="nav nav-list nav--cta">
                             <li class="nav-item"><a href="//shopline.tw/?utm_source=top-menu&utm_medium=blog" class="nav-link" target="_blank">免費試用開店</a></li>
