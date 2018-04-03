@@ -152,6 +152,20 @@
   height: 35px;
   width: 35px; }
 
+.ico--search {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/ico--search.png");
+  background-position: center; }
+
+.ico--search {
+  height: 35px;
+  width: 35px; }
+
 .global--bg {
   width: 100vw;
   background-image: url("../images/sprite/bg--earth.png");

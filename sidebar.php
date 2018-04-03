@@ -52,7 +52,9 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	    	js = d.createElement(s); js.id = id;
 	    	js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=183018925104207";
 	    	fjs.parentNode.insertBefore(js, fjs);
-	    }(document, 'script', 'facebook-jssdk'));</script><div class="fb-page" data-href="<?php echo esc_url( get_theme_mod( 'shopline2018_fb' )); ?>" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="<?php echo esc_url( get_theme_mod( 'shopline2018_fb' )); ?>" class="fb-xfbml-parse-ignore"><a href="<?php echo esc_url( get_theme_mod( 'shopline2018_fb' )); ?>">SHOPLINE</a></blockquote></div>
+	    }(document, 'script', 'facebook-jssdk'));</script>
+
+	    <div class="fb-page" data-href="<?php echo esc_url( get_theme_mod( 'shopline2018_fb' )); ?>" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="<?php echo esc_url( get_theme_mod( 'shopline2018_fb' )); ?>" class="fb-xfbml-parse-ignore"><a href="<?php echo esc_url( get_theme_mod( 'shopline2018_fb' )); ?>">SHOPLINE</a></blockquote></div>
 	  </div>
 	</div>
 </aside>

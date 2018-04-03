@@ -8,7 +8,7 @@
  */
 
 /**
- * WordPress 添加面包屑导航 
+ * WordPress 添加面包屑导航
  * https://www.wpdaxue.com/wordpress-add-a-breadcrumb.html
  */
 if( ! function_exists('shopline2018_breadcrumbs') ) :
@@ -115,9 +115,15 @@ function shopline2018_paging_nav() {
 	$total_pages = $GLOBALS['wp_query']->max_num_pages;
 	if ($total_pages > 1){
 		$current_page = max(1, get_query_var('paged'));
+		if ( !get_option('permalink_structure') ) {
+		 $format = '&paged=%#%';
+		}else{
+		 $format = 'page/%#%/';
+		}
+		$big = 999999999;
 		$pagination = paginate_links(array(
-			'base' => get_pagenum_link(1) . '%_%',
-			'format' => 'page/%#%/',
+			'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+			'format' => $format,
 			'current' => $current_page,
 			'total' => $total_pages,
 			'prev_text' => 'Prev',
@@ -178,7 +184,7 @@ function shopline2018_posted_on() {
 		if( $tag_ary ){
 			$html .= '<div class="tags">';
 			for($i=0;$i<sizeof($tag_ary);$i++){
-				if( $i < 99 ){
+				if( $i < 2 ){
 					$tag_link = get_tag_link( $tag_ary[$i]->term_id );
 					$tag_name = $tag_ary[$i]->name;
 					$html .= '<div class="tag"><a href="'.$tag_link.'" rel="tag">'.$tag_name.'</a></div>';
@@ -237,7 +243,7 @@ function shopline2018_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( '</div><div class="tag">' );
 		if ( $categories_list && shopline2018_categorized_blog() ) {
-			$html .= '<div class="box--article"><div class="box__title"><h4>文章分類</h4></div><div class="box__content"><div class="tags is-catalog"><div class="tag">';
+			$html .= '<div class="box--article"><div class="box__title"><h4>文章分類</h4></div><div class="box__content"><div class="tags"><div class="tag">';
 			$html .= $categories_list ;
 			$html .= '</div></div></div></div>';
 		}

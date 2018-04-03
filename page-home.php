@@ -117,7 +117,7 @@ get_header(); ?>
 						<?php $i++; endwhile; // end of the loop. ?>
                   </div>
 
-					<div class="row--button"><a class="button--readAll" href="<?php echo home_url('/'); ?>all/"><span>瀏覽所有文章</span></a></div>
+					<div class="row--button" style="margin-top: -1rem; margin-bottom: 1rem;"><a class="button--readAll" href="<?php echo home_url('/'); ?>all/"><span>瀏覽所有文章</span></a></div>
 
                 </div>
               </section>

@@ -17,7 +17,12 @@ get_header(); ?>
                     <section class="section--articleList">
                         <div class="container">
                           <div class="section__title">
-                            <?php printf( __( 'Search Results for: %s' ), '<span>' . get_search_query() . '</span>' ); ?>
+                            <h2 class="catalog--title">
+                                <i class="ico--search"></i>
+                                <span>
+                                   <?php printf( __( 'Search Results for： %s' ), '<span>' . get_search_query() . '</span>' ); ?>
+                                </span>
+                            </h2>
                           </div>
                           <div class="row--articleList">
                             <div class="col">

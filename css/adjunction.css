@@ -3431,22 +3431,22 @@ span.wpmm-selected-icon {
   color: white;
   border-radius: 8px; }
 
-.articleSwiper--wrapper .swiper-button-prev,
-.articleSwiper--wrapper .swiper-button-next {
-  -webkit-transition-property: all;
-  -ms-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.3s;
-  -ms-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-in-out;
-  -ms-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  opacity: 0; }
-
-.articleSwiper--wrapper:hover .swiper-button-prev,
-.articleSwiper--wrapper:hover .swiper-button-next {
-  opacity: 1; }
+@media (min-width: 768px) {
+  .section--articleSwiper .articleSwiper--wrapper .swiper-button-prev,
+  .section--articleSwiper .articleSwiper--wrapper .swiper-button-next {
+    -webkit-transition-property: all;
+    -ms-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    opacity: 0; }
+  .section--articleSwiper .articleSwiper--wrapper:hover .swiper-button-prev,
+  .section--articleSwiper .articleSwiper--wrapper:hover .swiper-button-next {
+    opacity: 1; } }
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -3793,8 +3793,7 @@ div.sharedaddy h3.sd-title:before {
 .row--siteinfo {
   margin: 0 -10px; }
 
-.page-template-page-home-php .sidebar,
-.page-template-page-all .sidebar {
+.sidebar {
   margin-top: -6px; }
 
 .post-template-default .sidebar {
@@ -3803,19 +3802,12 @@ div.sharedaddy h3.sd-title:before {
 .row--resource > .col {
   padding: 0 5px; }
 
-.row--articleList {
-  margin: 0 -15px; }
-
 @media (max-width: 991px) {
   .container {
     max-width: 100% !important; } }
 
 .section--hero {
   background-image: url(../images/sprite/bg--hero.png); }
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .section--navi {
-    margin-top: -4rem; } }
 
 .section--articleList {
   padding-top: 0; }

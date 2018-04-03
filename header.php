@@ -51,14 +51,14 @@
                         ) );
 
                         ?>
-                        <div class="row--button"><a class="button--drawer" href="login.html"><span>登入網店</span></a><a class="button--drawer is-invert" href="register.html"><span>立即開店</span></a></div>
+                        <div class="row--button"><a class="button--drawer" href="https://admin.shoplineapp.com/users/sign_in" target="_blank"><span>登入網店</span></a><a class="button--drawer is-invert" href="https://admin.shoplineapp.com/users/sign_up?utm_source=nav-menu&utm_medium=blog" target="_blank"><span>立即開店</span></a></div>
                     </nav>
                     <div class="row--free__wrapper">
                     <div class="row--free">
                       <ul class="nav nav-list nav--free">
-                        <li class="nav-item"><a class="nav-link" href="//shopline.tw/?utm_source=top-menu&utm_medium=blog">免費試用</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://seminar.shopline.tw/?utm_source=top-menu&utm_medium=blog">免費講座</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://consultation.shopline.tw/?utm_source=top-menu&utm_medium=blog">免費諮詢</a></li>
+                        <li class="nav-item"><a class="nav-link" href="//shopline.tw/?utm_source=top-menu&utm_medium=blog" target="_blank">免費試用</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://seminar.shopline.tw/?utm_source=top-menu&utm_medium=blog" target="_blank">免費講座</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://consultation.shopline.tw/?utm_source=top-menu&utm_medium=blog" target="_blank">免費諮詢</a></li>
                       </ul>
                     </div>
                   </div>
@@ -71,9 +71,9 @@
                     <div class="header--middle">
                     <nav>
                         <ul class="nav nav-list nav--privmacy">
-                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview/?utm_source=nav-menu&utm_medium=blog">功能特色</a></li>
-                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing/?utm_source=nav-menu&utm_medium=blog">平台收費</a></li>
-                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase/?utm_source=nav-menu&utm_medium=blog">客戶案例</a></li>
+                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview/?utm_source=nav-menu&utm_medium=blog" target="_blank">功能特色</a></li>
+                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing/?utm_source=nav-menu&utm_medium=blog" target="_blank">平台收費</a></li>
+                          <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase/?utm_source=nav-menu&utm_medium=blog" target="_blank">客戶案例</a></li>
                           <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw/?utm_source=nav-menu&utm_medium=blog" target="_blank">開店說明會</a></li>
                           <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw/?utm_source=nav-menu&utm_medium=blog" target="_blank">開店諮詢</a></li>
                           <li class="nav-item"><a class="nav-link" href="https://shopline.tw/blog/">電商教室</a></li>
@@ -82,9 +82,9 @@
                               <div class="subMenu--container">
                                 <nav>
                                   <ul class="nav nav-list nav--secordary">
-                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/online-store-setup/?utm_source=nav-menu&utm_medium=blog">開店密技</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/templates/?utm_source=nav-menu&utm_medium=blog">版型主題</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/faq/overview">新手問答</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/online-store-setup/?utm_source=nav-menu&utm_medium=blog" target="_blank">開店密技</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/templates/?utm_source=nav-menu&utm_medium=blog" target="_blank">版型主題</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="//shopline.tw/faq/overview" target="_blank">新手問答</a></li>
                                     <li class="nav-item"><a class="nav-link" href="https://partners.shopline.tw/google-ads-plan/?utm_source=nav-menu&utm_medium=blog" target="_blank">廣告計畫</a></li>
                                   </ul>
                                 </nav>
@@ -95,12 +95,12 @@
                     </nav>
                     </div>
                     <div class="header--right button--group">
-                        <a class="button--small is-invert" href="http://admin.shoplineapp.com/users/sign_in">登入網店</a><a class="button--small" href="http://admin.shoplineapp.com/users/sign_up">立即開店</a></div>
+                        <a class="button--small is-invert" href="http://admin.shoplineapp.com/users/sign_in" target="_blank">登入網店</a><a class="button--small" href="https://admin.shoplineapp.com/users/sign_up?utm_source=nav-menu&utm_medium=blog" target="_blank">立即開店</a></div>
                     <div class="header--right button--cta">
                         <ul class="nav nav-list nav--cta">
-                            <li class="nav-item"><a href="//shopline.tw/?utm_source=top-menu&utm_medium=blog" class="nav-link">免費試用開店</a></li>
-                            <li class="nav-item"><a href="https://seminar.shopline.tw/?utm_source=top-menu&utm_medium=blog" class="nav-link">免費開店講座</a></li>
-                            <li class="nav-item"><a href="https://consultation.shopline.tw/?utm_source=top-menu&utm_medium=blog" class="nav-link">免費專人諮詢</a></li>
+                            <li class="nav-item"><a href="//shopline.tw/?utm_source=top-menu&utm_medium=blog" class="nav-link" target="_blank">免費試用開店</a></li>
+                            <li class="nav-item"><a href="https://seminar.shopline.tw/?utm_source=top-menu&utm_medium=blog" class="nav-link" target="_blank">免費開店講座</a></li>
+                            <li class="nav-item"><a href="https://consultation.shopline.tw/?utm_source=top-menu&utm_medium=blog" class="nav-link" target="_blank">免費專人諮詢</a></li>
                         </ul>
                     </div><a class="button--search" js-toggle="search"></a>
                     <div class="menu">

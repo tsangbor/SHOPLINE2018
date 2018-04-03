@@ -43,8 +43,8 @@
                     <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview" target="_blank">功能特色</a></li>
                     <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing" target="_blank">平台收費</a></li>
                     <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase" target="_blank">客戶案例</a></li>
-                    <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw" target="_blank">開店說明會</a></li>
-                    <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw" target="_blank">開店諮詢</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw/?utm_source=footer-cta&utm_medium=blog" target="_blank">開店說明會</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw/?utm_source=footer-cta&utm_medium=blog" target="_blank">開店諮詢</a></li>
                   </ul>
                 </div>
                 <div class="col">
@@ -106,8 +106,8 @@
                 <li class="nav-item"><a class="nav-link" href="//shopline.tw/features/overview" target="_blank">功能特色</a></li>
                 <li class="nav-item"><a class="nav-link" href="//shopline.tw/about/pricing" target="_blank">平台收費</a></li>
                 <li class="nav-item"><a class="nav-link" href="//shopline.tw/showcase" target="_blank">客戶案例</a></li>
-                <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw" target="_blank" target="_blank">開店說明會</a></li>
-                <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw" target="_blank" target="_blank">開店諮詢</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://seminar.shopline.tw/?utm_source=footer-cta&utm_medium=blog" target="_blank">開店說明會</a></li>
+                <li class="nav-item"><a class="nav-link" href="http://consultation.shopline.tw/?utm_source=footer-cta&utm_medium=blog" target="_blank">開店諮詢</a></li>
               </ul>
             </div>
           </li>
